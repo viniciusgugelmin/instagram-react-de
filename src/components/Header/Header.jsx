@@ -3,14 +3,16 @@ import Logo from "./Logo/Logo";
 
 export default function Header() {
   return (
-    <header className="header">
-      <div className="menu-topo">
+    <header className="de-header">
+      <div className="de-header__container">
         <Logo />
-
         <label>
-          <input type="text" placeholder="Pesquisar" />
+          <input
+            className="de-header__input"
+            type="text"
+            placeholder="Pesquisar"
+          />
         </label>
-
         <Nav />
       </div>
     </header>

@@ -7,7 +7,7 @@ export default function NavHeader() {
   ];
 
   return (
-    <nav className="nav">
+    <nav className="de-header__nav">
       {navOptions.map((option, index) => (
         <ion-icon key={index} name={option}></ion-icon>
       ))}

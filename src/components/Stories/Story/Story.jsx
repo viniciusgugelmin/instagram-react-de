@@ -1,9 +1,7 @@
-export default function Story(props) {
-  const { profileImage, username } = props;
-
+export default function Story({ profileImage, username }) {
   return (
-    <div className="story">
-      <div className="thumbnail">
+    <div className="de-story">
+      <div className="de-story__thumbnail">
         <img src={profileImage} alt={username} />
       </div>
       <span>username</span>
