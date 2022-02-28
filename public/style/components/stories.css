@@ -1,0 +1,19 @@
+.de-stories {
+  display: flex;
+  gap: 14px;
+  background-color: #fff;
+  margin-bottom: 24px;
+  padding: 14px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 614px) {
+  .de-stories {
+    background: none;
+    border: none;
+    margin-bottom: 8px;
+  }
+}

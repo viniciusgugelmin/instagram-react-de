@@ -1,0 +1,10 @@
+.de-feed {
+  width: 614px;
+}
+
+@media (max-width: 614px) {
+  .de-feed {
+    width: 100%;
+  }
+}
+
