@@ -3,7 +3,10 @@
 }
 
 body {
-  display: block !important;
   font-family: "Roboto", sans-serif;
   background-color: #fafafa;
+}
+
+.root {
+  display: block !important;
 }
